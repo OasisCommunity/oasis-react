@@ -29,7 +29,7 @@ before_deploy:
   - if [ $TRAVIS_BRANCH == $PROD_BRANCH ] && [ $TRAVIS_BRANCH != "master" ]; then export PUBLIC_URL="https://oasisdex.github.io/oasis-react"; fi
   - yarn build
   # to make gp work with client side routing
-  - if [ $TRAVIS_BRANCH = $PROD_BRANCH ]; then cp build/200.html build/404.html ; fi
+  - if [ $TRAVIS_BRANCH = $PROD_BRANCH ]; then cp build/index.html build/404.html ; fi
 
 deploy:
   - on: dev
