@@ -37,5 +37,9 @@ export const generateTradingPairs = () => {
       base: TOKEN_DONUT,
       quote: TOKEN_WRAPPED_ETH
     },
+    {
+      base: TOKEN_DONUT,
+      quote: TOKEN_DAI
+    },
   ];
 };
