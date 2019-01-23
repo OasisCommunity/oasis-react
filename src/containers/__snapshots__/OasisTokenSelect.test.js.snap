@@ -86,36 +86,42 @@ exports[`(Container) OasisTokenSelect should render 1`] = `
   </option>
   <option
     key="13"
+    value="DONUT"
+  >
+    DONUT
+  </option>
+  <option
+    key="14"
     value="SAI"
   >
     SAI
   </option>
   <option
-    key="14"
+    key="15"
     value="SNGLS"
   >
     SNGLS
   </option>
   <option
-    key="15"
+    key="16"
     value="TIME"
   >
     TIME
   </option>
   <option
-    key="16"
+    key="17"
     value="VSL"
   >
     VSL
   </option>
   <option
-    key="17"
+    key="18"
     value="W-ETH"
   >
     W-ETH
   </option>
   <option
-    key="18"
+    key="19"
     value="W-GNT"
   >
     W-GNT

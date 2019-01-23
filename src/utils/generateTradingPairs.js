@@ -3,6 +3,7 @@ import {
   TOKEN_DIGIX,
   TOKEN_MAKER,
   TOKEN_RHOC,
+  TOKEN_DONUT,
   TOKEN_WRAPPED_ETH,
 } from "../constants";
 
@@ -30,6 +31,10 @@ export const generateTradingPairs = () => {
     },
     {
       base: TOKEN_RHOC,
+      quote: TOKEN_WRAPPED_ETH
+    },
+    {
+      base: TOKEN_DONUT,
       quote: TOKEN_WRAPPED_ETH
     },
   ];

@@ -111,6 +111,12 @@ exports[`(Container) OasisTrade should render 1`] = `
           isDefault: false,
         },
         Immutable.Map {
+          base: "DONUT",
+          quote: "W-ETH",
+          priority: 0,
+          isDefault: false,
+        },
+        Immutable.Map {
           base: "TIME",
           quote: "W-ETH",
           priority: 0,
@@ -253,6 +259,12 @@ Object {
         isDefault: false,
     },
     Immutable.Map {
+        base: "DONUT",
+        quote: "W-ETH",
+        priority: 0,
+        isDefault: false,
+    },
+    Immutable.Map {
         base: "TIME",
         quote: "W-ETH",
         priority: 0,
@@ -289,6 +301,7 @@ Object {
     "PLU",
     "MLN",
     "RHOC",
+    "DONUT",
     "TIME",
     "GUP",
     "BAT",

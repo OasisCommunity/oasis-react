@@ -16,6 +16,7 @@ import {
   TOKEN_DIGIX,
   TOKEN_MAKER,
   TOKEN_RHOC,
+  TOKEN_DONUT,
   TOKEN_WRAPPED_ETH,
 } from '../../constants';
 
@@ -55,6 +56,10 @@ const init = networkName => {
     erc20Abi.interface,
     tokencontractsDeploymentAdressessList["RHOC"]
   );
+  const DONUT = loadContact(
+    erc20Abi.interface,
+    tokencontractsDeploymentAdressessList["DONUT"]
+  );
   const market = loadContact(
     MatchingMarketAbi.interface,
     marketDeploymentAddress
@@ -92,7 +97,8 @@ const init = networkName => {
       [TOKEN_MAKER]: MKR,
       [TOKEN_DIGIX]: DGD,
       // [TOKEN_GOLEM]: GNT,
-      [TOKEN_RHOC]: RHOC
+      [TOKEN_RHOC]: RHOC,
+      [TOKEN_DONUT]: DONUT
     },
     market,
     noProxyTokens: {
