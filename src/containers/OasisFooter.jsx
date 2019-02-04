@@ -16,10 +16,10 @@ const sections = [
   {
     // header: "Information",
     links: [
-      {
-        label: 'Project',
-        url: 'https://github.com/OasisDEX/oasis-react',
-      },
+      // {
+      //   label: 'Project',
+      //   url: 'https://github.com/OasisDEX/oasis-react',
+      // },
       // {
       //   label: 'Documentation',
       //   url: 'https://github.com/MakerDAO/maker-market/wiki',
@@ -33,10 +33,10 @@ const sections = [
   {
     // header: "MakerDAO",
     links: [
-      {
-        label: 'Legal',
-        url: '/OasisToS.pdf',
-      },
+      // {
+      //   label: 'Legal',
+      //   url: '/OasisToS.pdf',
+      // },
       // {
       //   label: 'Chat',
       //   url: 'https://chat.makerdao.com/',
@@ -50,10 +50,10 @@ const sections = [
   {
     // header: "OasisDex",
     links: [
-      {
-        label: 'Report Issues',
-        url: 'https://github.com/OasisDEX/oasis-react/issues/new',
-      },
+      // {
+      //   label: 'Report Issues',
+      //   url: 'https://github.com/OasisDEX/oasis-react/issues/new',
+      // },
     ]
   },
 ];
